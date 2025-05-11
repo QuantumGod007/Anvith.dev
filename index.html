@@ -1,0 +1,399 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Anvith</title>
+    <link rel="stylesheet" href="style.css">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+</head>
+<body>
+    <div class="container">
+        <video class="back-vid" autoplay loop muted playsinline src="videos/galaxy.mp4"></video>
+
+        <header data-aos="fade-down" data-aos-duration="2000">
+            <div class="left">
+                <img src="image/cs50-ddb.png" alt="logo">
+                <h2><span style="color: #72a1dea2;">Anvith</span>Code</h2>
+            </div>
+
+            <ul>
+                <li><a href="#info-section">About</a></li>
+                <li><a href="#skills-section">Skills</a></li>
+                <li><a href="#my-project-section">Projects</a></li>
+            </ul>
+            <div class="box-icons" style="font-size: 1.5rem;">
+                <a href="https://www.linkedin.com/in/anvith1729/" target="_blank" style="color: inherit;"><i class='bx bxl-youtube'></i></a>
+                <a href="https://github.com/QuantumGod007" target="_blank" style="color: inherit;"><i class='bx bxl-github'></i></a>
+                <a href="https://www.linkedin.com/in/anvith1729" target="_blank" style="color: inherit;"><i class='bx bxl-linkedin-square'></i></a>
+                <a href="https://www.reddit.com/user/PinOk5095/" target="_blank" class="reddit-icon" style="color: inherit;"><i class='bx bxl-reddit'></i></a>
+                <div class="cv-button">
+                    <a href="resume.pdf" download="Anvith_Shetty_CV.pdf"><i class='bx bx-download'></i> Resume</a>
+                </div>
+            </div>
+
+            <div class="menu-icon">
+                <i class='bx bx-menu'></i>
+            </div>            
+        </header>
+        <div class="sidebar">
+            <div class="close-icon">
+                <i class='bx bx-x'></i>
+            </div>
+            
+            <ul>
+                <li><a href="#" class="sidebar-link">Home</a></li>
+                <li><a href="#info-section" class="sidebar-link">About</a></li>
+                <li><a href="#skills-section" class="sidebar-link">Skills</a></li>
+                <li><a href="#my-project" class="sidebar-link">Projects</a></li>
+            </ul>
+
+            <div class="social-sidebar">
+                <a><i class='bx bxl-youtube'></i></a>
+                <a><i class='bx bxl-github'></i></a>
+                <a><i class='bx bxl-linkedin-square'></i></a>
+                <a href="resume.pdf" download="Anvith_Shetty_CV.pdf" class="sidebar-cv-button"><i class='bx bx-download'></i> Resume</a>
+            </div>
+        </div>
+
+        <div class="blackhole-box" data-aos="fade-down" data-aos-duration="2000">
+            <video autoplay loop muted plays-inline src="videos/blackhole.mp4"></video>
+        </div>
+
+        <section class="hero">
+            <div class="hero-info autoBlur" data-aos="fade-right" data-aos-duration="1000">
+                <div class="hero-info-title" >
+                    <i class='bx bxl-sketch'></i>
+                     Aspiring AIML Engineer
+                </div>
+
+                <h1 data-aos="fade-right" data-aos-duration="3000">Providing <span class="gradient">the best</span> Project <span class="gradient">Experience</span></h1>
+
+                <p> I’m Anvith — a tech enthusiast, innovator, and problem solver. Driven by passion, I create cutting-edge solutions that push boundaries. Explore my journey through code and creativity.</p>
+
+                <button id="contact-btn"><i class='bx bx-send' ></i> Contact Me</button>
+            </div>
+            
+            <div class="skills-video-box">
+                <video class="skills-video autoBlur" autoplay loop muted plays-inline src="videos/hero-video 2 copy.mp4"></video>
+            </div>
+        
+            <div class="scroll-down"></div>
+        </section>
+
+        <section class="info-section">
+            <h1 class="section-title autoDisplay">Hello,There👋</h1>
+            <div class="info-cards">
+                <div class="card ">
+                    <h1>Hi there, I'm Anvith Shetty</h1>
+                    <p>Aspiring AI/ML engineer passionate about solving real-world problems with data and algorithms. Currently a first-year software engineering student, focused on expanding skills in machine learning and AI applications.</p>
+                
+                    <img src="image/grid1.png" alt="">
+                </div>
+
+                <div class="card">
+                    <h1>Languages</h1>
+                    <p>I specialize in a variety of languages and tools that allow me to build robust and scalable applications.</p>
+                
+                    <img src="image/grid2.png" alt="">
+                </div>
+
+                <div class="card">
+                    <h1>I’m very flexible with time zone communications & locations</h1>
+                    <p>I'm based in India, Pune and open to remote work worldwide.</p>
+                
+                    <video src="videos/glob.mp4" autoplay loop muted plays-inline></video>
+
+                    <button id="skills-btn"><i class='bx bx-send'></i> Explore Skills</button>
+                </div>
+
+                <div class="card">
+                    <h1>My Passion for Coding</h1>
+                    <p>I love solving problems and building things through code. Programming isn't just my profession—it's my passion. I enjoy exploring new technologies, and enhancing my skills.</p>
+                
+                    <img src="image/grid4.png" alt="">
+                </div>
+            </div>
+        </section>
+
+        <section id="my-project-section" class="my-project">
+            <h1 class="section-title autoDisplay">My Projects 👨‍💻</h1>
+            <div class="project-card">
+                <div class="project-vidbox autoBlur" >
+                    <video loop id="projectVideo1" src="image/books.png"></video>
+                    <div class="hover-sign"></div>
+                </div>
+                <div class="project-info fadein-left">
+                    <h1>Book <span class="gradient">Management</span> System</h1>
+                    <p>Designed and implemented a robust Book Management System that streamlines book record management, including adding, updating, searching, and deleting entries, ensuring efficient data handling and user-friendly interaction using python and sql</p>
+                    <button><i class='bx bx-link-external' ></i> Website</button>
+            </div>
+            </div>
+
+            <div class="project-card">
+                <div class="project-vidbox autoBlur">
+                    <video loop id="projectVideo2" src="videos/project2.mp4"></video>
+                </div>
+                <div class="project-info fadein-left">
+                    <h1> Modern <span class="gradient">Portfolio</span> Website </h1>
+                    <p>A modern, responsive portfolio website showcasing my projects, skills, and contact info with a clean UI and smooth interactions.</p>
+                    <button><i class='bx bx-link-external' ></i> Website</button>
+                </div>
+            </div>
+
+
+            <div class="project-card">
+            <div class="project-vidbox autoBlur">
+            <video loop id="projectVideo3" src="image/linux.png"></video>
+            </div>
+            <div class="project-info fadein-left">
+                <h1>Weather <span class="gradient">Prediction</span> Using Linux API</h1>
+                <p>A weather forecasting application leveraging Linux APIs to provide real-time weather updates and predictions with high accuracy.</p>
+                <button><i class='bx bx-link-external' ></i> Website</button>
+            </div>
+            </div>
+        </section>
+
+        <section id="skills-section" class="skills-section">
+            <h1 class="section-title autoDisplay">
+            My Skills 💪
+            </h1>
+            <div class="skills-box autoDisplay">
+            <img class="skills-image" src="images/digital brain (2).png" alt="">
+            <div class="skills-list">
+                <div class="skill-item">
+                <h2>Python</h2>
+                <p>Strong with libraries like NumPy, Pandas, Matplotlib; experienced in automation, data manipulation, and problem-solving.</p>
+                </div>
+                <div class="skill-item">
+                <h2>C</h2>
+                <p>Proficient in data structures, algorithms, memory management, and system-level programming.</p>
+                </div>
+                <div class="skill-item">
+                <h2>SQL</h2>
+                <p>Skilled in writing complex queries, joins, subqueries, and optimizing for performance.</p>
+                </div>
+                <div class="skill-item">
+                <h2>Tableau</h2>
+                <p>Experienced in creating interactive dashboards, calculated fields, and applying filters to data visualizations.</p>
+                </div>
+            </div>
+            </div>
+        </section>
+
+        <section id="contact-section" class="contact-section">
+            <h1 class="section-title autoDisplay">Let's talk😊</h1>
+
+            <div class="social-box autoBlur">
+                <a href="#"><i class='bx bxs-phone'></i> +91 7387221396</a>
+                <a href="#"><i class='bx bxl-telegram' ></i> Contact </a>
+                <a href="#"><i class='bx bxl-linkedin-square' ></i> www.linkedin.com/in/anvith1729</a>
+                <div class="social-icons">
+                    <a href="#"><i class='bx bxl-youtube' ></i></a>
+                    <a href="#"><i class='bx bxl-twitter' ></i></a>
+                    <a href="#"><i class='bx bxl-facebook-circle' ></i></a>
+                </div>
+            </div>
+
+            
+        </section> 
+
+        <section class="footer">
+            <h1>©️2025 Anvith Shetty</h1>
+            <div class="box-icons" style="font-size: 2.5rem; display: flex; justify-content: center; gap: 15px;">
+            <a href="https://www.youtube.com" target="_blank" style="color: inherit;"><i class='bx bxl-youtube'></i></a>
+            <a href="https://github.com/QuantumGod007" target="_blank" style="color: inherit;"><i class='bx bxl-github'></i></a>
+            <a href="https://www.linkedin.com/in/anvith1729/" target="_blank" style="color: inherit;"><i class='bx bxl-linkedin-square'></i></a>
+            </div>
+        </section>
+    </div>
+
+
+
+    <script src="app.js"></script>
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <style>
+      /* CV Button Styles */
+      .cv-button {
+        display: inline-flex;
+        align-items: center;
+        margin-left: 15px;
+      }
+      
+      .cv-button a {
+        display: flex;
+        align-items: center;
+        background: linear-gradient(45deg, #8a2be2, #4169e1);
+        color: white;
+        text-decoration: none;
+        padding: 8px 15px;
+        border-radius: 30px;
+        font-weight: bold;
+        font-size: 0.9rem;
+        transition: all 0.3s ease;
+        box-shadow: 0 4px 10px rgba(65, 105, 225, 0.3);
+      }
+      
+      .cv-button a:hover {
+        transform: translateY(-3px);
+        box-shadow: 0 6px 15px rgba(65, 105, 225, 0.5);
+      }
+      
+      .cv-button i {
+        margin-right: 5px;
+        font-size: 1.1rem;
+      }
+      
+      /* Sidebar CV Button Styles */
+      .sidebar-cv-button {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        background: linear-gradient(45deg, #8a2be2, #4169e1);
+        color: white;
+        text-decoration: none;
+        padding: 10px 20px;
+        border-radius: 30px;
+        font-weight: bold;
+        margin: 20px auto 0;
+        width: 140px;
+        transition: all 0.3s ease;
+        box-shadow: 0 4px 10px rgba(65, 105, 225, 0.3);
+      }
+      
+      .sidebar-cv-button:hover {
+        transform: translateY(-3px);
+        box-shadow: 0 6px 15px rgba(65, 105, 225, 0.5);
+      }
+      
+      .sidebar-cv-button i {
+        margin-right: 5px;
+        font-size: 1.1rem;
+      }
+      
+      /* Download CV Banner */
+      .download-cv-banner {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        background: rgba(20, 20, 40, 0.7);
+        backdrop-filter: blur(10px);
+        border-radius: 15px;
+        padding: 15px 25px;
+        margin: 20px auto 30px;
+        max-width: 800px;
+        border: 1px solid rgba(255, 255, 255, 0.1);
+        box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+      }
+      
+      .download-cv-banner p {
+        color: white;
+        font-size: 1.1rem;
+        margin: 0;
+      }
+      
+      .download-cv-btn {
+        display: flex;
+        align-items: center;
+        background: linear-gradient(45deg, #8a2be2, #4169e1);
+        color: white;
+        text-decoration: none;
+        padding: 10px 20px;
+        border-radius: 30px;
+        font-weight: bold;
+        transition: all 0.3s ease;
+        box-shadow: 0 4px 10px rgba(65, 105, 225, 0.3);
+      }
+      
+      .download-cv-btn:hover {
+        transform: translateY(-3px);
+        box-shadow: 0 6px 15px rgba(65, 105, 225, 0.5);
+      }
+      
+      .download-cv-btn i {
+        margin-right: 8px;
+        font-size: 1.2rem;
+      }
+      
+      /* Media Queries for CV Button and Banner */
+      @media (max-width: 768px) {
+        .cv-button {
+          display: none;
+        }
+        
+        .download-cv-banner {
+          flex-direction: column;
+          text-align: center;
+          padding: 15px;
+        }
+        
+        .download-cv-banner p {
+          margin-bottom: 15px;
+        }
+      }
+    </style>
+    <script>
+      AOS.init();
+      
+      // Smooth scrolling for navigation links
+      document.addEventListener('DOMContentLoaded', function() {
+        // Get all links with hash
+        const links = document.querySelectorAll('a[href^="#"]');
+        
+        // Add click event listener to each link
+        links.forEach(link => {
+          link.addEventListener('click', function(e) {
+            // Prevent default behavior
+            e.preventDefault();
+            
+            // Get the target section
+            const targetId = this.getAttribute('href');
+            if (targetId === '#') return;
+            
+            const targetSection = document.querySelector(targetId);
+            
+            if (targetSection) {
+              // Scroll to the target section smoothly
+              targetSection.scrollIntoView({
+                behavior: 'smooth'
+              });
+              
+              // Close sidebar if open (for mobile)
+              const sidebar = document.querySelector('.sidebar');
+              if (sidebar.classList.contains('active')) {
+                sidebar.classList.remove('active');
+              }
+            }
+          });
+        });
+        
+        // Contact Me buttons functionality
+        const contactButtons = document.querySelectorAll('#contact-btn, .contact-btn');
+        contactButtons.forEach(button => {
+          button.addEventListener('click', function() {
+            const contactSection = document.querySelector('#contact-section');
+            contactSection.scrollIntoView({
+              behavior: 'smooth'
+            });
+          });
+        });
+        
+        // Project videos play on hover
+        const projectVideos = document.querySelectorAll('#projectVideo1, #projectVideo2, #projectVideo3');
+        projectVideos.forEach(video => {
+          const videoBox = video.parentElement;
+          
+          videoBox.addEventListener('mouseenter', function() {
+            video.play();
+          });
+          
+          videoBox.addEventListener('mouseleave', function() {
+            video.pause();
+          });
+        });
+      });
+    </script>
+    
+</body>
+</html>
